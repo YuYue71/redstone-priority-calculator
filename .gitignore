@@ -1,0 +1,22 @@
+# --- Common, OS, and IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+.env
+.env.local
+
+# --- Java and Gradle ---
+.gradle/
+build/
+bin/
+out/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.iml
+
+# --- Minecraft development runtime ---
+run/
+work/

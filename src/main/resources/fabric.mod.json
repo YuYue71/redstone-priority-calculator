@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "redstone_priority_calculator",
+  "version": "${version}",
+  "name": "Redstone Priority Calculator",
+  "description": "Client-side tool to calculate and visualize redstone study-label permutations using an inferred model.",
+  "authors": ["YuYueSama"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["tw.redstonepriority.client.RedstonePriorityCalculatorClient"] },
+  "depends": { "fabricloader": ">=0.15.0", "fabric-api": "*", "minecraft": "=1.20.4", "java": ">=17" }
+}
